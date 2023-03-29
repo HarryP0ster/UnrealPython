@@ -7,7 +7,7 @@ Small API designed for easy access from C++ to Python. Load desired Python inter
 - pass a link to python3x.dll file on your system
 
 ### void InitPython()
-- call to initialize python module (Call after 'Load' is called and before using any other functions)
+- call to initialize python module (Call after 'Load' and before using any other functions)
 
 ### void FreePython()
 - call to free python module
